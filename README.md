@@ -39,31 +39,55 @@ This changes the active robot to the ID number passed. It can then be moved etc.
 This will announce the details of the robots. Format is:
 
 Report:
+
 ID: 0 Location:1,1,WEST, Active=False
+
 ID: 1 Location:5,5,NORTH, Active=False
+
 ID: 2 Location:4,4,NORTH, Active=False
+
 ID: 3 Location:2,1,EAST, Active=True
 
 ## Test Input
 
 MOVE
+
 LEFT
+
 RIGHT
+
 REPORT
+
 PLACE 0,0,NORTH
+
 PLACE 5,5,SOUTH
+
 PLACE 0,1,SOUTH
+
 REPORT
+
 MOVE
+
 LEFT
+
 MOVE
+
 LEFT
+
 LEFT
+
 LEFT
+
 MOVE
+
 MOVE
+
 MOVE
+
 REPORT
+
 ROBOT 1
+
 MOVE
+
 REPORT
