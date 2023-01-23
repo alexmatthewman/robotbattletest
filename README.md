@@ -51,43 +51,23 @@ ID: 3 Location:2,1,EAST, Active=True
 ## Test Input
 
 MOVE
-
 LEFT
-
 RIGHT
-
 REPORT
-
 PLACE 0,0,NORTH
-
 PLACE 5,5,SOUTH
-
 PLACE 0,1,SOUTH
-
 REPORT
-
 MOVE
-
 LEFT
-
 MOVE
-
 LEFT
-
 LEFT
-
 LEFT
-
 MOVE
-
 MOVE
-
 MOVE
-
 REPORT
-
 ROBOT 1
-
 MOVE
-
 REPORT
